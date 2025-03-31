@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fc {
+  font-family: theme('fontFamily.sans');
+}
+
+.fc .fc-toolbar-title {
+  font-size: theme('fontSize.xl');
+  font-weight: theme('fontWeight.bold');
+}
+
+.fc .fc-button {
+  background-color: theme('colors.blue.600');
+  border-color: theme('colors.blue.600');
+}
+
+.fc .fc-button:hover {
+  background-color: theme('colors.blue.700');
+  border-color: theme('colors.blue.700');
+}
+
+.fc .fc-button:disabled {
+  background-color: theme('colors.gray.400');
+  border-color: theme('colors.gray.400');
+}
+
+.fc .fc-daygrid-day-number {
+  font-size: theme('fontSize.sm');
+  padding: theme('spacing.1');
+}
+
+.fc .fc-event {
+  border-radius: theme('borderRadius.md');
+  padding: theme('spacing.1');
+  font-size: theme('fontSize.sm');
+}
